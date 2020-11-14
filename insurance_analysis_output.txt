@@ -1,0 +1,79 @@
+Stats:
+bmi--Average: 30.66, Standard Deviation: 6.1
+age--Average: 39.21, Standard Deviation: 14.05
+children--Average: 1.09, Standard Deviation: 1.21
+charges--Average: 13270.42, Standard Deviation: 12110.01
+
+Proportions for sex
+female: 49.48%
+male: 50.52%
+
+Proportions for smoker
+yes: 20.48%
+no: 79.52%
+
+Proportions for region
+southwest: 24.29%
+southeast: 27.2%
+northwest: 24.29%
+northeast: 24.22%
+
+Multiple Linear Regression Insights for All Data:
+R2 value: 0.7599
+age coef: 251.768
+sex coef: 297.926
+bmi coef: 322.375
+children coef: 362.199
+smoker coef: 24192.21
+region_southwest coef: -315.44
+region_southeast coef: -406.334
+region_northwest coef: 115.005
+region_northeast coef: 606.769
+
+Multiple Linear Regression Insights for High-tier Smoker Data:
+R2 value: 0.5008
+age coef: 269.539
+sex coef: 601.309
+bmi coef: 611.184
+children coef: -216.308
+smoker coef: 0.0
+region_southwest coef: -216.193
+region_southeast coef: -647.111
+region_northwest coef: 1123.909
+region_northeast coef: -260.605
+
+Multiple Linear Regression Insights for Low-tier Smoker Data:
+R2 value: 0.9795
+age coef: 246.423
+sex coef: 890.034
+bmi coef: 452.499
+children coef: 284.075
+smoker coef: 0.0
+region_southwest coef: -74.546
+region_southeast coef: -55.267
+region_northwest coef: 82.706
+region_northeast coef: 47.107
+
+Multiple Linear Regression Insights for High-tier Non-smoker Data:
+R2 value: 0.0616
+age coef: 294.521
+sex coef: 1336.802
+bmi coef: -129.896
+children coef: 1218.024
+smoker coef: -0.0
+region_southwest coef: -75.698
+region_southeast coef: -1219.444
+region_northwest coef: 1496.042
+region_northeast coef: -200.901
+
+Multiple Linear Regression Insights for Low-tier Non-smoker Data:
+R2 value: 0.9657
+age coef: 267.582
+sex coef: 448.532
+bmi coef: 3.96
+children coef: 462.843
+smoker coef: -0.0
+region_southwest coef: -294.11
+region_southeast coef: -219.587
+region_northwest coef: 112.628
+region_northeast coef: 401.068
